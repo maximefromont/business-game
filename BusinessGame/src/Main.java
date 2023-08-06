@@ -1,17 +1,21 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Main {
+    private static Scanner sc = new Scanner(System.in);
+    private static String[] tab_nb_soc = new String[] {"first", "second", "third", "fourth"};
+
     public static void main(String[] args) {
-        // Press Alt+Entrée with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        // Press Maj+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Maj+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        //Creation of the fourth societies
+        for (int id = 1; id <= 4; id++) {
+            create_society(id);
         }
+    }
+
+
+    public static void create_society(int id) {
+        System.out.println("Enter name of the " + tab_nb_soc[id-1] + " society :");
+        String name = sc.nextLine();
+        Society soc1 = new Society(name, id);
     }
 }
