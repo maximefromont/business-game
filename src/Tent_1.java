@@ -1,2 +1,2 @@
-public class Tent_1 {
+public class Tent_1 extends Tent{
 }
