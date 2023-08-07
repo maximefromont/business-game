@@ -1,10 +1,16 @@
-import java.util.ArrayList;
+import Languages.Message;
+
 import java.util.Scanner;
 
 public class Main {
-    private static Scanner sc = new Scanner(System.in);
-    private static String[] tab_nb_soc = new String[] {"first", "second", "third", "fourth"};
-    private static double price_per_ton_al_low_qlty = 1960;
+    private static Scanner  sc                        = new Scanner(System.in);
+    private static String   selected_language         = "english"; //TODO : Allow user to choose language ?
+    private static String[] tab_nb_soc                = new String[] {
+            Message.getMessage(selected_language, "sequentialRank.first"),
+            Message.getMessage(selected_language, "sequentialRank.second"),
+            Message.getMessage(selected_language, "sequentialRank.third"),
+            Message.getMessage(selected_language, "sequentialRank.fourth")};
+    private static double   price_per_ton_al_low_qlty = 1960;
     private static double price_per_ton_al_high_qlty = 2450;
     private static double price_per_m2_fabric = 0.07;
 
@@ -21,7 +27,7 @@ public class Main {
 
 
     public static void create_society(int id) {
-        System.out.println("Enter name of the " + tab_nb_soc[id-1] + " society :");
+        System.out.println(Message.getMessage(selected_language, "inputMessage.companyName", new String[] {tab_nb_soc[id-1]}));
         String name = sc.nextLine();
         Society soc1 = new Society(name, id);
     }
