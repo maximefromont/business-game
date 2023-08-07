@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62cafe6f-79d3-41e0-9a87-f45e0d48e200" name="Changes" comment="" />
+    <list default="true" id="da83eb27-cc97-4700-a13b-7d58b7c395c8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": -1
-}]]></component>
-  <component name="ProjectId" id="2TZMJvVyotUgJwxXAfhAgmXKB8i" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2TeP86yXCSiwuBvrTcvcx4jNwWv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,24 +19,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "Z:/Programmes/JDK",
-    "vue.rearranger.settings.migration": "true"
+    "last_opened_file_path": "C:/Users/mfromont/Documents/Depots_gits/business-game/BusinessGame"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="62cafe6f-79d3-41e0-9a87-f45e0d48e200" name="Changes" comment="" />
-      <created>1691246084241</created>
+      <changelist id="da83eb27-cc97-4700-a13b-7d58b7c395c8" name="Changes" comment="" />
+      <created>1691400410869</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1691246084241</updated>
-      <workItem from="1691246085227" duration="293000" />
+      <updated>1691400410869</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
