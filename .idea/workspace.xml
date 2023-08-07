@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da83eb27-cc97-4700-a13b-7d58b7c395c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Languages/french.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tent_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tent_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tent_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tent_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tent_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tent_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Languages/english.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Languages/english.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +35,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/mfromont/Documents/Depots_gits/business-game",
+    "last_opened_file_path": "C:/Users/mfromont/Documents/Depots_gits/business-game/src/Languages",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mfromont\Documents\Depots_gits\business-game\src\Languages" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
