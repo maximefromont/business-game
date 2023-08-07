@@ -1,10 +1,12 @@
+import Constants.Constants;
 import Languages.Message;
 
 import java.util.Scanner;
 
 public class Main {
+    private static String   selected_language         = Constants.ENGLISH_LANGUAGE; //TODO : Allow user to choose language ?
+
     private static Scanner  sc                        = new Scanner(System.in);
-    private static String   selected_language         = "english"; //TODO : Allow user to choose language ?
     private static String[] tab_nb_soc                = new String[] {
             Message.getMessage(selected_language, "sequentialRank.first"),
             Message.getMessage(selected_language, "sequentialRank.second"),
