@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
         //Creation of the fourth societies
         for (int id = 1; id <= 4; id++) {
-            create_society(id);
+            create_company(id);
         }
 
         Material aluminium_low_qlty = new Material(price_per_ton_al_low_qlty);
@@ -28,9 +28,9 @@ public class Main {
     }
 
 
-    public static void create_society(int id) {
+    public static void create_company(int id) {
         System.out.println(Message.getMessage(selected_language, "inputMessage.companyName", new String[] {tab_nb_soc[id-1]}));
-        String name = sc.nextLine();
-        Society soc1 = new Society(name, id);
+        String  name = sc.nextLine();
+        Company soc1 = new Company(name, id);
     }
 }
